@@ -1,15 +1,38 @@
 Accessibility:  
 
 
-	          WithinClass	      SamePackage	        SubClass(SamePkg)	        SubClass(DiffPkg)	        EntireProject
+	    WithinClass	      SamePackage	        SubClass(SamePkg)	        SubClass(DiffPkg)	        EntireProject
           
-Public	      Yes	              Yes	                Yes	                        Yes	                    Yes
+Public	     	 Yes	              Yes	                Yes	                        Yes	                    Yes
 
-Private	      Yes	               No	                No	                        No	                    No
+Private	     	 Yes	               No	                No	                        No	                    No
 
-Protected	    Yes	              Yes	                Yes	                        *Yes	                  No
+Protected	 Yes	              Yes	                Yes	                        *Yes	                    No
 
-No Modifier	  Yes	              Yes	                Yes                       	No	                    No
+No Modifier	 Yes	              Yes	                Yes                       	No	                    No
 
 
                                                                                                         *Only Inheritance
+										
+										
+Do Some Code & try this accessibility.
+Make two package & two class in each package. Try to access the field to understand.
+
+Example:
+	package ->> CarPkg
+	Class	->> Cars1, Cars2;
+
+	package ->> BikePkg
+	Class	->> Bikes1, Bikes2;
+
+Public
+-------
+make some fields/variables in every classes and you can access from all.
+
+Private:
+--------
+make a constructor in a class you can access all fields within class. Not from other.
+
+Protected:
+----------
+You can access within class, subclass in same package by inheritance or creating object of a class. but in different class only accessible by doing inheritance.
