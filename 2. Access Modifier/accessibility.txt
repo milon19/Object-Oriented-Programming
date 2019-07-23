@@ -1,0 +1,15 @@
+Accessibility:  
+
+
+	          WithinClass	      SamePackage	        SubClass(SamePkg)	        SubClass(DiffPkg)	        EntireProject
+          
+Public	      Yes	              Yes	                Yes	                        Yes	                    Yes
+
+Private	      Yes	               No	                No	                        No	                    No
+
+Protected	    Yes	              Yes	                Yes	                        *Yes	                  No
+
+No Modifier	  Yes	              Yes	                Yes                       	No	                    No
+
+
+                                                                                                        *Only Inheritance
