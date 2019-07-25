@@ -1,11 +1,8 @@
-
-
-
 public class Test {
 
 	public static void main(String[] args) {
 		
-		Student s = new Student();
+		Student s = new Student("MILON");
 			
 		//these from Student Class
 		s.id = "171-15-1472"; 
@@ -27,7 +24,7 @@ public class Test {
 	/*
 	 * Up Cast
 	 */
-		Person p = new Student();
+		Person p = new Student("MILON");
 		//Student s = new Person(); // not possible.
 
 	}
