@@ -13,6 +13,7 @@ public class A {
 
 public class B extends A{
 	int a;
+	
 }
  // Class B will have both a and n;
 
@@ -25,3 +26,9 @@ public class B extends A{
  *  5. Hybrid.
  *  
  * */
+
+/*
+ * If Parents class has constructor in Child Class Mention that.
+ * Using super key word we can access Parent class property.
+ * 
+ */
