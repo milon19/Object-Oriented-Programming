@@ -4,4 +4,12 @@ public class Person{
 	public String add;
 	public String name;
 
+	public Person(String n)
+	{
+		this.name = n;
+	}
+	public void Test()
+	{
+		
+	}
 }
