@@ -1,0 +1,25 @@
+**Abstract Class
+  1. May contain abstract method (Method without body)
+  2. Cannot be instantiated (Cannot create object)
+  3. Must be inherited in order to use
+      -> Must have to provide required implementations
+  4. When a class has at least one abstract method, it must be declard abstract
+  
+**Interface
+  1. Will contain public abstract methods only (Method without body)
+  2. The field will be public, static and final.
+  3. Cannot be instantiated (Cannot create object)
+  4. Must be inherited in order to use
+      -> Must have to provide required implementations
+  5. Multiple Inheritance is possible
+  
+  
+How to achirve Abstraction?
+
+**Abstract Class
+  0% - 100% abstraction can be possible
+    -> 0% no abstract method
+    -> 100% all abstact method
+
+**Interface
+  100% abstraction.
